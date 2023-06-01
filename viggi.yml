@@ -1,0 +1,11 @@
+apiVersion: xazure-blob.com/v1alpha1
+kind: xazureblob
+metadata:
+  name: ccpaccountpoc
+  labels:
+    project: CCP
+    owner: Alpha
+spec:
+  parameters:
+    storageAccountName: ccpaccountpoc
+    storageContainerName: ccppocsamplecontainerpoc1
